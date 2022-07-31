@@ -1,0 +1,26 @@
+
+@use 'sass:math';
+
+@function toVW($inPX: null, $screen: 1920) {
+  $inVW: $inPX / $screen * 100;
+  $val: #{$inVW}vw;
+  @return $val;
+}
+
+@function toVH($inPX: null, $screen: 1080) {
+  $inVW: $inPX / $screen * 100;
+  $val: #{$inVW}vh;
+  @return $val;
+}
+
+@function toREM($inPX: null, $fontbase: 18) {
+  $inVW: math.div($inPX, $fontbase);
+  $val: #{$inVW}rem;
+  @return $val;
+}
+
+@function toREMMobile($inPX: null, $fontbase: 18) {
+  $inVW: math.div($inPX, $fontbase);
+  $val: #{$inVW}rem;
+  @return $val;
+}

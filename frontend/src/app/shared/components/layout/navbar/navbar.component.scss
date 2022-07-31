@@ -1,0 +1,45 @@
+@import "./../../../../../assets/scss/custom";
+
+:host{
+    height: toREM(40);
+    margin-bottom: toREM(40);
+    box-shadow: 1px 18px 33px -16px rgba(135,135,135,0.51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Potato_sans";
+    font-size: toREM(28);
+    line-height: 1;
+    padding-top: toREM(4);
+
+    span:nth-child(1) {
+        color: #AB2D11;
+    }
+    span:nth-child(2) {
+        color: #CC3514;
+    }
+    span:nth-child(3) {
+        color: #B58074;
+    }
+    span:nth-child(4) {
+        color: #D9998B;
+    }
+    span:nth-child(5) {
+        color: #D63370;
+    }
+    span:nth-child(6) {
+        color: #7EC963;
+    }
+    span:nth-child(7) {
+        color: #6FB357;
+    }
+    span:nth-child(8) {
+        color: #639415;
+    }
+    span:nth-child(9) {
+        color: #4A7010;
+    }
+}
