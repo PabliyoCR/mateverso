@@ -1,0 +1,25 @@
+@import "./custom";
+@import "./helpers/functions";
+
+/* native */
+
+html {
+    font-size: toVW(22);
+}
+
+@font-face {
+    font-family: "PotatoSans";
+    src: local("GoldmanBold"), url("./fonts/Potato_sans/Potato_sans-Black.woff") format("truetype");
+    font-weight: bold;
+}
+
+
+/* bootstrap.scss */
+
+@import "bootstrap/scss/bootstrap.scss";
+
+/* custom */
+
+a {
+    text-decoration: none;
+}

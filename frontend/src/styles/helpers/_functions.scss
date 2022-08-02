@@ -1,0 +1,17 @@
+@function toVW($inPX: null, $screen: 1920) {
+    $inVW: calc($inPX / $screen) * 100;
+    $val: #{$inVW}vw;
+    @return $val;
+}
+
+@function toVH($inPX: null, $screen: 1080) {
+    $inVW: calc($inPX / $screen) * 100;
+    $val: #{$inVW}vh;
+    @return $val;
+}
+
+@function toREM($inPX: null, $fontbase: 22) {
+    $inVW: calc($inPX / $fontbase);
+    $val: #{$inVW}rem;
+    @return $val;
+}

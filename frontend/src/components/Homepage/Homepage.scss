@@ -1,0 +1,13 @@
+@import './../../styles/global.scss';
+.Homepage {}
+
+.sidebar {
+    height: 100%;
+    border-radius: toREM(20);
+    padding: toREM(15);
+    box-shadow: 25px 18px 33px -16px rgba(135, 135, 135, 0.51);
+    &__title {
+        font-family: "PotatoSans";
+        cursor: default;
+    }
+}
